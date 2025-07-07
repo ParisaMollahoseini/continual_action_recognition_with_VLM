@@ -1,0 +1,100 @@
+\edef \SavedTocDepth {\the \value {tocdepth}}
+\setcounter {tocdepth}{-10}
+\contentsline {chapter}{فهرست شکل‌ها}{ه}{section*.4}%
+\contentsline {chapter}{فهرست جدول‌ها}{و}{section*.5}%
+\par عنوان\hfill صفحه \par 
+\setcounter {tocdepth}{\SavedTocDepth }
+\contentsline {chapter}{\numberline {1}راهنمای استفاده از الگوی لاتک دانشگاه صنعتی امیرکبیر(پلی‌تکنیک تهران)}{1}{chapter.1}%
+\contentsline {section}{\numberline {1-1}مقدمه}{2}{section.1.1}%
+\contentsline {section}{\numberline {1-2}این همه فایل؟!}{2}{section.1.2}%
+\contentsline {section}{\numberline {1-3}از کجا شروع کنم؟}{3}{section.1.3}%
+\contentsline {section}{\numberline {1-4}مطالب پایان‌نامه را چطور بنویسم؟}{4}{section.1.4}%
+\contentsline {subsection}{\numberline {1-4-1}نوشتن فصل‌ها}{4}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1-4-2}مراجع}{5}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1-4-3}واژه‌نامه فارسی به انگلیسی و برعکس}{5}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1-5}اگر سوالی داشتم، از کی بپرسم؟}{5}{section.1.5}%
+\contentsline {chapter}{\numberline {2}مرور کارهای پیشین}{6}{chapter.2}%
+\contentsline {section}{\numberline {2-1}یادگیری پیوسته}{7}{section.2.1}%
+\contentsline {subsection}{\numberline {2-1-1}چالش‌ها}{7}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2-1-2}سناریوها}{7}{subsection.2.1.2}%
+\contentsline {subsubsection}{یادگیری نمونه‌ای افزاینده}{8}{section*.6}%
+\contentsline {subsubsection}{یادگیری افزایشی دامنه}{8}{section*.7}%
+\contentsline {subsubsection}{یادگیری افزایشی وظیفه}{8}{section*.8}%
+\contentsline {subsubsection}{یادگیری افزایشی دسته‌ای}{8}{section*.9}%
+\contentsline {subsection}{\numberline {2-1-3}رویکردها}{8}{subsection.2.1.3}%
+\contentsline {subsubsection}{رویکرد مبتنی بر تنظیم}{9}{section*.10}%
+\contentsline {subsubsection}{رویکرد مبتنی بر بازپخش}{9}{section*.11}%
+\contentsline {subsubsection}{رویکرد مبتنی بر بهینه سازی}{10}{section*.12}%
+\contentsline {subsubsection}{رویکرد مبتنی بر معماری}{10}{section*.13}%
+\contentsline {subsubsection}{رویکرد حاصل از ترکیب رویکردها و سناریوها}{10}{section*.14}%
+\contentsline {subsection}{\numberline {2-1-4}کاربردها}{10}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2-2}یادگیری پیوسته در بینایی کامپیوتر}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2-2-1}دسته‌بندی تصویر}{11}{subsection.2.2.1}%
+\contentsline {subsubsection}{روش تثبیت وزن کشسان}{11}{section*.15}%
+\contentsline {subsubsection}{روش یادگیری بدون فراموشی}{11}{section*.16}%
+\contentsline {subsubsection}{روش میانگین حافظه رخدادی گرادیان}{12}{section*.17}%
+\contentsline {subsubsection}{روش طبقه بندی افزایشی و یادگیری بازنمایی}{12}{section*.18}%
+\contentsline {subsubsection}{روش حداکثر تداخل ارزیابی}{13}{section*.19}%
+\contentsline {subsection}{\numberline {2-2-2}تشخیص عمل}{13}{subsection.2.2.2}%
+\contentsline {subsubsection}{روش مین هاس}{13}{section*.20}%
+\contentsline {subsubsection}{روش الزنت}{14}{section*.21}%
+\contentsline {subsubsection}{روش تعبیه همسایه تی تصادفی موقت تحت نظارت}{14}{section*.22}%
+\contentsline {subsubsection}{روش پاریزی}{14}{section*.23}%
+\contentsline {section}{\numberline {2-3}مدل‌های بینایی-زبان}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2-3-1}پیش آموزش مدل‌های بینایی-زبان}{16}{subsection.2.3.1}%
+\contentsline {subsubsection}{اهداف تقابلی}{16}{section*.24}%
+\contentsline {subsubsection}{اهداف مولد}{16}{section*.25}%
+\contentsline {subsubsection}{اهداف هم‌ترازی}{16}{section*.26}%
+\contentsline {subsection}{\numberline {2-3-2}یادگیری انتقالی مدل‌های بینایی-زبان}{17}{subsection.2.3.2}%
+\contentsline {subsubsection}{تنظیم پرامپت}{17}{section*.27}%
+\contentsline {subsubsection}{وفق دهنده‌ی ویژگی}{17}{section*.28}%
+\contentsline {subsubsection}{سایر روش‌ها}{18}{section*.29}%
+\contentsline {subsection}{\numberline {2-3-3}تقطیر دانش}{18}{subsection.2.3.3}%
+\contentsline {subsubsection}{تقطیر دانش برای تشخیص شیء}{18}{section*.30}%
+\contentsline {subsubsection}{تقطیر دانش برای بخش‌بندی معنایی}{19}{section*.31}%
+\contentsline {section}{\numberline {2-4}یادگیری پیوسته در مدل‌های بینایی-زبان}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2-4-1}روش‌های مبتنی بر حافظه}{20}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2-4-2}روش‌های مبتنی بر تنظیم}{20}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2-4-3}روش‌های مبتنی بر تقطیر دانش}{20}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2-4-4}روش‌های مبتنی بر معماری}{21}{subsection.2.4.4}%
+\contentsline {subsubsection}{تنظیم پرامپت}{21}{section*.34}%
+\contentsline {subsubsection}{تنظیم پیشوند}{24}{section*.37}%
+\contentsline {subsubsection}{سازگار‌سازی رتبه‌پایین}{24}{section*.38}%
+\contentsline {subsubsection}{وفق دهنده}{24}{section*.39}%
+\contentsline {subsubsection}{مخلوط خبره‌ها}{25}{section*.40}%
+\contentsline {chapter}{\numberline {3}نگارش صحيح}{26}{chapter.3}%
+\contentsline {section}{\numberline {3-1}مقدمه}{27}{section.3.1}%
+\contentsline {section}{\numberline {3-2}فارسی نویسی}{27}{section.3.2}%
+\contentsline {section}{\numberline {3-3}رعایت املای صحيح }{28}{section.3.3}%
+\contentsline {section}{\numberline {3-4}رعایت قواعد نشانه‌گذاری}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3-4-1}ويرگول}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3-4-2}نقطه}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3-4-3}دونقطه}{29}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3-4-4}گیومه}{29}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3-4-5}نشانه پرسشی}{29}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3-4-6}خط تیره}{30}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3-4-7}پرانتز}{30}{subsection.3.4.7}%
+\contentsline {section}{\numberline {3-5}جدا یا سرهم نوشتن برخی کلمات}{30}{section.3.5}%
+\contentsline {chapter}{\numberline {4}مشخصات یک پایان نامه و گزارش علمی}{32}{chapter.4}%
+\contentsline {section}{\numberline {4-1}برخورداری از غنای علمی }{33}{section.4.1}%
+\contentsline {section}{\numberline {4-2}ارجاع به‌موقع و صحیح به منابع دیگر}{33}{section.4.2}%
+\contentsline {section}{\numberline {4-3}ساده‌نویسی }{33}{section.4.3}%
+\contentsline {section}{\numberline {4-4}وحدت موضوع}{34}{section.4.4}%
+\contentsline {section}{\numberline {4-5}اختصار}{34}{section.4.5}%
+\contentsline {section}{\numberline {4-6}رعایت نكات دستوري و نشانه‌گذاري}{34}{section.4.6}%
+\contentsline {section}{\numberline {4-7}توجه به معلومات ذهنی مخاطب}{34}{section.4.7}%
+\contentsline {section}{\numberline {4-8}رعایت مراحل اصولی نگارش}{34}{section.4.8}%
+\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{36}{chapter.5}%
+\contentsline {section}{\numberline {5-1}پیشنهادات}{37}{section.5.1}%
+\contentsline {chapter}{\numberline {6}موارد به‌روزرسانی}{38}{chapter.6}%
+\contentsline {section}{\numberline {6-1} استفاده از \lr {subfigure}}{39}{section.6.1}%
+\contentsline {section}{\numberline {6-2}فرض}{39}{section.6.2}%
+\contentsline {section}{\numberline {6-3}جدول }{40}{section.6.3}%
+\contentsline {subsection}{\numberline {6-3-1}چندسطری}{40}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6-3-2}مقیاس بندی}{40}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6-3-3}استفاده از قضیه}{41}{subsection.6.3.3}%
+\contentsline {chapter}{منابع و مراجع}{43}{appendix*.47}%
+\contentsline {chapter}{پیوست}{51}{appendix*.48}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{52}{appendix*.50}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{54}{appendix*.51}%
+\contentsfinish 
