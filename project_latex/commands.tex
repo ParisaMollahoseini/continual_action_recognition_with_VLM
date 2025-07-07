@@ -19,28 +19,28 @@
 % بسته‌ و دستوراتی برای ایجاد لینک‌های رنگی با امکان جهش
 \usepackage[pagebackref=false,colorlinks,linkcolor=blue,citecolor=red]{hyperref}
 \usepackage[nameinlink]{cleveref}%capitalize,,noabbrev
- \AtBeginDocument{%
-    \crefname{equation}{برابری}{equations}%
-    \crefname{chapter}{فصل}{chapters}%
-    \crefname{section}{بخش}{sections}%
-    \crefname{appendix}{پیوست}{appendices}%
-    \crefname{enumi}{مورد}{items}%
-    \crefname{footnote}{زیرنویس}{footnotes}%
-    \crefname{figure}{شکل}{figures}%
-    \crefname{table}{جدول}{tables}%
-    \crefname{theorem}{قضیه}{theorems}%
-    \crefname{lemma}{لم}{lemmas}%
-    \crefname{corollary}{نتیجه}{corollaries}%
-    \crefname{proposition}{گزاره}{propositions}%
-    \crefname{definition}{تعریف}{definitions}%
-    \crefname{result}{نتیجه}{results}%
-    \crefname{example}{مثال}{examples}%
-    \crefname{remark}{نکته}{remarks}%
-    \crefname{note}{یادداشت}{notes}%
+\AtBeginDocument{%
+	\crefname{equation}{برابری}{equations}%
+	\crefname{chapter}{فصل}{chapters}%
+	\crefname{section}{بخش}{sections}%
+	\crefname{appendix}{پیوست}{appendices}%
+	\crefname{enumi}{مورد}{items}%
+	\crefname{footnote}{زیرنویس}{footnotes}%
+	\crefname{figure}{شکل}{figures}%
+	\crefname{table}{جدول}{tables}%
+	\crefname{theorem}{قضیه}{theorems}%
+	\crefname{lemma}{لم}{lemmas}%
+	\crefname{corollary}{نتیجه}{corollaries}%
+	\crefname{proposition}{گزاره}{propositions}%
+	\crefname{definition}{تعریف}{definitions}%
+	\crefname{result}{نتیجه}{results}%
+	\crefname{example}{مثال}{examples}%
+	\crefname{remark}{نکته}{remarks}%
+	\crefname{note}{یادداشت}{notes}%
     \crefname{asum}{فرض}{Assumption}
-    % دستوری برای تغییر نام کلمه «کتاب‌نامه» به «منابع و مراجع«
-    \renewcommand{\bibname}{منابع و مراجع}
-    
+	% دستوری برای تغییر نام کلمه «کتاب‌نامه» به «منابع و مراجع«
+	\renewcommand{\bibname}{منابع و مراجع}
+
     \renewcommand{\labelitemi}{$\bullet$}
     % دستوری برای تعیین علامت سطح دوم itemize
     \renewcommand{\labelitemii}{$\circ$}
@@ -80,7 +80,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % چنانچه می‌خواهید اعداد در فرمول‌ها، انگلیسی باشد، خط زیر را غیرفعال کنید.
 %
-\setdigitfont[Scale=1.1,Path=Fonts/,BoldFont=Yas Bd.ttf]{Yas.ttf}%%Yas
+%\setdigitfont[Scale=1.1]{PGaramond}%%Yas
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % تعریف قلم‌های فارسی اضافی برای استفاده در بعضی از قسمت‌های متن
 \defpersianfont\nastaliq[Scale=2,Path=Fonts/]{IranNastaliq.ttf}
@@ -152,29 +152,29 @@
 % دستورهایی برای سفارشی کردن صفحات اول فصل‌ها
 \makeatletter
 \newcommand\mycustomraggedright{%
- \if@RTL\raggedleft%
- \else\raggedright%
- \fi}
+	\if@RTL\raggedleft%
+	\else\raggedright%
+	\fi}
 \def\@makechapterhead#1{%
-\thispagestyle{style1}
-\vspace*{20\p@}%
-{\parindent \z@ \mycustomraggedright
-\ifnum \c@secnumdepth >\m@ne
-\if@mainmatter
-
-\bfseries{\Huge \@chapapp}\small\space {\chapternumber\thechapter}
-\par\nobreak
-\vskip 0\p@
-\fi
-\fi
-\interlinepenalty\@M 
-\Huge \bfseries #1\par\nobreak
-\vskip 120\p@
-
-}
-
-%\thispagestyle{empty}
-\newpage}
+	\thispagestyle{style1}
+	\vspace*{20\p@}%
+	{\parindent \z@ \mycustomraggedright
+		\ifnum \c@secnumdepth >\m@ne
+		\if@mainmatter
+		
+		\bfseries{\Huge \@chapapp}\small\space {\chapternumber\thechapter}
+		\par\nobreak
+		\vskip 0\p@
+		\fi
+		\fi
+		\interlinepenalty\@M 
+		\Huge \bfseries #1\par\nobreak
+		\vskip 120\p@
+		
+	}
+	
+	%\thispagestyle{empty}
+	\newpage}
 \bidi@patchcmd{\@makechapterhead}{\thechapter}{\tartibi{chapter}}{}{}
 \bidi@patchcmd{\chaptermark}{\thechapter}{\tartibi{chapter}}{}{}
 \makeatother
@@ -183,83 +183,83 @@
 \renewcommand{\chaptermark}[1]{\markboth{\chaptername~\tartibi{chapter}: #1}{}}
 
 \fancypagestyle{style1}{
-\fancyhf{} 
-\fancyfoot[c]{\thepage}
-\fancyhead[R]{\leftmark}%
-\renewcommand{\headrulewidth}{1.2pt}
+	\fancyhf{} 
+	\fancyfoot[c]{\thepage}
+	\fancyhead[R]{\leftmark}%
+	\renewcommand{\headrulewidth}{1.2pt}
 }
 
 
 \fancypagestyle{style2}{
-\fancyhf{}
-\fancyhead[R]{چکیده}
-\fancyfoot[C]{\thepage{}}
-\renewcommand{\headrulewidth}{1.2pt}
+	\fancyhf{}
+	\fancyhead[R]{چکیده}
+	\fancyfoot[C]{\thepage{}}
+	\renewcommand{\headrulewidth}{1.2pt}
 }
 
 \fancypagestyle{style3}{%
-  \fancyhf{}%
-  \fancyhead[R]{فهرست نمادها}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{فهرست نمادها}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 
 \fancypagestyle{style4}{%
-  \fancyhf{}%
-  \fancyhead[R]{فهرست جدول‌ها}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{فهرست جدول‌ها}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 
 \fancypagestyle{style5}{%
-  \fancyhf{}%
-  \fancyhead[R]{فهرست شکل‌ها}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{فهرست شکل‌ها}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 
 \fancypagestyle{style6}{%
-  \fancyhf{}%
-  \fancyhead[R]{فهرست مطالب}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{فهرست مطالب}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 
 \fancypagestyle{style7}{%
-  \fancyhf{}%
-  \fancyhead[R]{نمایه}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{نمایه}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 
 \fancypagestyle{style8}{%
-  \fancyhf{}%
-  \fancyhead[R]{منابع و مراجع}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{منابع و مراجع}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 \fancypagestyle{style9}{%
-  \fancyhf{}%
-  \fancyhead[R]{واژه‌نامه‌ی فارسی به انگلیسی}
-  \fancyfoot[C]{\thepage}%
-  \renewcommand{\headrulewidth}{1.2pt}%
+	\fancyhf{}%
+	\fancyhead[R]{واژه‌نامه‌ی فارسی به انگلیسی}
+	\fancyfoot[C]{\thepage}%
+	\renewcommand{\headrulewidth}{1.2pt}%
 }
 %
 
 
 %دستور حذف نام لیست تصاویر و لیست جداول از فهرست مطالب
 \newcommand*{\BeginNoToc}{%
-  \addtocontents{toc}{%
-    \edef\protect\SavedTocDepth{\protect\the\protect\value{tocdepth}}%
-  }%
-  \addtocontents{toc}{%
-    \protect\setcounter{tocdepth}{-10}%
-  }%
+	\addtocontents{toc}{%
+		\edef\protect\SavedTocDepth{\protect\the\protect\value{tocdepth}}%
+	}%
+	\addtocontents{toc}{%
+		\protect\setcounter{tocdepth}{-10}%
+	}%
 }
 \newcommand*{\EndNoToc}{%
-  \addtocontents{toc}{%
-    \protect\setcounter{tocdepth}{\protect\SavedTocDepth}%
-  }%
+	\addtocontents{toc}{%
+		\protect\setcounter{tocdepth}{\protect\SavedTocDepth}%
+	}%
 }
 \newcounter{savepage}
 
