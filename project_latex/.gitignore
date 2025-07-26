@@ -1,5 +1,6 @@
 # ignore folders behind this
 ../*
+../AUT-AI-EnglishPersianDictionary.xlsx
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
